@@ -103,3 +103,8 @@
     text-align: center;
     grid-column:1/-1;
 }
+@media (max-width: 768px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
